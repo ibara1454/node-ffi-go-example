@@ -1,0 +1,29 @@
+{
+  "name": "ffi-go-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "make -C lib build",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibara1454/node-ffi-go-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibara1454/node-ffi-go-example/issues"
+  },
+  "homepage": "https://github.com/ibara1454/node-ffi-go-example#readme",
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
+    "ref-struct-napi": "^1.1.1"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
